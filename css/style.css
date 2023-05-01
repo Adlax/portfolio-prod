@@ -407,7 +407,7 @@ img {
     width: 600px;
     align-content: center;
     text-align: center;
-    transform: translateX(-4rem);
+    /* transform: translateX(-4rem); */
 }
 
 /* CHECK THIS ONE  */
@@ -762,7 +762,7 @@ img {
     height: initial;
     overflow: hidden;
     position: relative;
-    border-color: var(--first-color);
+    /* border-color: var(--first-color); */
 }
 
 .task {
@@ -1304,6 +1304,7 @@ form textarea {
     font-size: 1.5rem;
     margin-right: var(--mb-1-5);
     column-gap: var(--mb-1);
+    padding-top: 10px;
 }
 
 .footer__social {
@@ -1391,6 +1392,10 @@ form textarea {
         margin-top: var(--mb-0-25);
     }
 
+    .home__data {
+        transform: translateX(-0.8rem);
+    }
+
     .home__scroll-mouse {
         margin-top: var(--mb-0-25);
     }
@@ -1401,6 +1406,10 @@ form textarea {
 
     .qualifications__data {
         gap: 0.5rem;
+    }
+
+    .qualifications__start-icon {
+        transform: translateY(1.2rem);
     }
 
     .contact_mail {
@@ -1430,6 +1439,7 @@ form textarea {
 
     .home__data {
         grid-column: initial;
+        transform: translateX(-1rem);
     }
 
     .about__container, .skill__container, .portfolio__container,
@@ -1535,7 +1545,7 @@ form textarea {
     }
 
     .about__description {
-        text-align: initial;
+        /* text-align: initial; */
     }
 
     /* .about__info {
@@ -1591,6 +1601,11 @@ form textarea {
         transform: translateX(-7.5rem);
     }
 
+    .home__data {
+        grid-column: initial;
+        transform: translateX(-5.7rem);
+    }
+
     .contact__form {
         width: 460px;
     }
@@ -1603,14 +1618,34 @@ form textarea {
         padding-left: var(--mb-3);
         padding-top: var(--mb-3);
         row-gap: 4rem;
+        /* transform: translateX(21rem); */
     }
 
     .form {
         min-width: 700px;
     }
 
-    /* .home__data {
-        transform: translateX(80px);
-    } */
-    
+}
+
+/* XXL SCREEN */
+@media screen and (min-width: 1500px) {
+    .contact__information {
+        /* top: 30%; */
+        /* margin-left: 200px; */
+    }
+
+    .contact__container {
+        position: absolute;
+        left: 18%;
+    }
+
+    .contact-form {
+        position: absolute;
+        right: 14%;
+    }
+
+    .contact {
+        margin-bottom: 200px;
+    }
+
 }

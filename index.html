@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- FONTS  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <!-- ICONS -->
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+        />
+
+        <title>Hadley</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"
+        />
+        <!-- Argon CSS -->
+        <link
+            type="text/css"
+            href="/css/argon-design-system.min.css"
+            rel="stylesheet"
+        />
+        <!-- SWIPER CSS  -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- My CSS -->
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+
+    <body>
+
+        <header class="header" id="header">
+            <nav class="nav container navbar-expand-lg">
+                <a href="#" class="nav__logo navbar-brand ml-3">Hadley</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbar-default"
+                    aria-controls="navbar-default"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#home">
+                                <i class="uil uil-estate nav__icon"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#about">
+								<i class="uil uil-user nav__icon"></i>
+								About
+							</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#skills">
+								<i class="uil uil-file-info-alt nav__icon"></i>
+								Skills
+							</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#qualifications">
+								<i class="uil uil-diary nav__icon"></i>
+								Qualifications
+							</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#portfolio">
+								<i class="uil uil-scenery nav__icon"></i>
+								Portfolio
+							</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#contact">
+								<i class="uil uil-message nav__icon"></i>
+								Contact
+							</a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <i class="uil uil-moon moon-change-theme" data-mode="dark" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!-- HOME  -->
+            <section class="home section" id="home">
+				<div class="home__container container grid">
+					<div class="home__content grid">
+						<div class="home__social">
+							<a href="" target="_blank" class="home__social-icon" id="myLinkedIn">
+								<i class="uil uil-linkedin-alt"></i>
+							</a>
+							<a href="" target="_blank" class="home__social-icon" id="myInstagram">
+								<i class="uil uil-instagram"></i>
+							</a>
+							<a href="" target="_blank" class="home__social-icon" id="myGithub">
+								<i class="uil uil-github-alt"></i>
+							</a>
+							<a href="" target="_blank" class="home__social-icon" id="myFacebook">
+								<i class="uil uil-facebook-f"></i>
+							</a>
+							<a href="" target="_blank" class="home__social-icon" id="myTwitter">
+								<i class="uil uil-twitter-alt"></i>
+							</a>
+						</div>
+					</div>
+					<div class="home__data">
+						<small class="home_welcome s-color"> Welcome to my portfolio website </small>
+						<h1 class="home__title"> Hey, I'm </h1>
+						<div id="typewriter"></div>
+						<h3 class="home__subtitle" id="home-bio">
+							An enthusiast engineer and freelancer
+						</h3>							
+						<a href="#contact" class="button button--flex">
+							Contact Me
+							<i class="uil uil-message button__icon"></i>
+						</a>
+					</div>
+				</div>
+				<div class="home__scroll">
+					<a href="#about" class="home__scroll-button button--flex">
+						<i class="uil uil-mouse-alt home__scroll-mouse"></i>
+						<!-- <span class="home__scroll-name"> Scroll Down </span>
+						<i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+					</a>
+				</div>
+			</section>
+            <!-- ABOUT ME -->
+            <section class="about section" id="about">
+                <h2 class="section__title">About</h2>
+                <span class="section__subtitle">My Introduction</span>
+                <div class="about__container grid">
+                    <img src="assets/img/me.jpg" alt="stuff" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description"id="home-about">
+                            Web developer, with extensive knowledge and years of experience, working with web technologies.
+                            Delivering quality work. Professionally .
+                        </p>
+                    </div>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title"> 02+ </span>
+                            <span class="about_info-name"> Years <br> Experience </span>
+                        </div>
+                        <div>
+                            <span class="about__info-title"> 10+ </span>
+                            <span class="about_info-name"> Completed <br> Projects </span>
+                        </div>
+                        <div>
+                            <span class="about__info-title"> 02 </span>
+                            <span class="about_info-name"> Companies <br> Worked </span>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a href="assets/file/CV.pdf" download="my_CV" target="_blank" class="button button--flex">
+                            Download CV
+                            <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- SKILLS -->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skillset</h2>
+                <span class="section__subtitle">My Skillset</span>
+                <div class="skills__container container grid">
+                    <div class="row" id="skillset_container">
+                        <!-- SKILL 1 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/html5-without-wordmark-color.svg" alt="html5"></div>
+                                <div class="contentBx"><h2>HTML</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 2 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/css-3-seeklogo.com.svg" alt="css3"></div>
+                                <div class="contentBx"><h2>CSS</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 3 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/javascript-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>JS/JSX</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 4 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/angular-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>Angular</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 5 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/react-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>React</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 6 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/redux-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>Redux</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 7 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/nodejs-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>Node</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 8 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/fastapi-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>FastAPI</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 9 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/postgresql-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>PostgreSQL</h2></div>
+                            </div>
+                        </div>
+                        <!-- SKILL 10 -->
+                        <div class="skills__container-card">
+                            <div class="card_skill shadow2">
+                                <div class="imgBx"><img src="assets/img/mongodb-seeklogo.com.svg" alt="js"></div>
+                                <div class="contentBx"><h2>MongoDB</h2></div>
+                            </div>
+                        </div>                                                                                                                                                                                                                       
+                    </div>
+                </div>
+            </section>
+            <!-- QUALIFICATIONS  -->
+            <section class="qualifications section" id="qualifications">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle">My personal journey</span>
+                <div class="qualifications__container container">
+                    <div class="row mt-lg-0">
+                        <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualifications__content" id="education">
+                            <div class="qualifications__button button--flex">
+                                <i class="uil uil-graduation-cap qualifications__icon"></i>Education
+                            </div>
+                            <div id="education_timeline">
+                                <div class="container py-2">
+                                    <!-- ITEM 1 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+
+                                            <h5>
+                                                <span class="badge qualifications__calendar">
+                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                    2015
+                                                </span>
+                                            </h5>
+
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div class="card education-card transparent_card mirror-face shadow2">
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3 class="qualifications__title">University</h3>
+                                                            <p class="qualifications__subtitle">UM2</p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p class="qualifications__subtitle ">Additional content on hover</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM 2 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+
+                                            <h5>
+                                                <span class="badge qualifications__calendar">
+                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                    2015
+                                                </span>
+                                            </h5>
+
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div class="card education-card mirror-face shadow2">
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3 class="qualifications__title">University</h3>
+                                                            <p class="qualifications__subtitle">UM2</p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p class="qualifications__subtitle ">Additional content on hover</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM 3 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+
+                                            <h5>
+                                                <span class="badge qualifications__calendar">
+                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                    2015
+                                                </span>
+                                            </h5>
+
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div class="card education-card mirror-face shadow2">
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3 class="qualifications__title">University</h3>
+                                                            <p class="qualifications__subtitle">UM2</p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p class="qualifications__subtitle ">Additional content on hover</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM END -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__start"><i class="uil uil-rocket qualifications__start-icon"></i></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                        </div>
+                                    </div>                                                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualifications__content" id="experience">
+                            <div class="qualifications__button button--flex">
+                                <i class="uil uil-briefcase-alt qualifications__icon"></i>Experience
+                            </div>
+                            <div id="experience_timeline">
+                                <div class="container py-2">
+                                    <!-- ITEM 1 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+
+                                            <h5>
+                                                <span class="badge qualifications__calendar">
+                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                    2015
+                                                </span>
+                                            </h5>
+
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div class="card education-card mirror-face shadow2">
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3 class="qualifications__title">University</h3>
+                                                            <p class="qualifications__subtitle">UM2</p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p class="qualifications__subtitle ">Additional content on hover</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM 2 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+
+                                            <h5>
+                                                <span class="badge qualifications__calendar">
+                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                    2015
+                                                </span>
+                                            </h5>
+
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div class="card education-card mirror-face shadow2">
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3 class="qualifications__title">University</h3>
+                                                            <p class="qualifications__subtitle">UM2</p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p class="qualifications__subtitle ">Additional content on hover</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM 3 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+
+                                            <h5>
+                                                <span class="badge qualifications__calendar">
+                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                    2015
+                                                </span>
+                                            </h5>
+
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div class="card education-card mirror-face shadow2">
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3 class="qualifications__title">University</h3>
+                                                            <p class="qualifications__subtitle">UM2</p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p class="qualifications__subtitle ">Additional content on hover</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM END -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div class="col-auto text-center flex-column d-sm-flex">
+                                            <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__start"><i class="uil uil-rocket qualifications__start-icon"></i></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+<!-- 
+                                            <h5>
+                                                <span class="badge qualifications__calendar">
+                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                    2015
+                                                </span>
+                                            </h5> -->
+
+                                            <!-- <div class="row h-50 qualifications__journey">
+                                                <div class="col">
+                                                    <span class="qualifications__line"></span>
+                                                </div>
+                                                <div class="col">
+                                                    &nbsp;
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                        </div>
+                                    </div>                                                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PORTFOLIO -->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most recent works</span>
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <!-- ITEM 1 -->
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="assets/img/mern1-snipet.png" alt="portfolio item">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code"> 8th April 2023 </span>
+                                <div class="blog-slider__title">MERN e-commerce website</div>
+                                <div class="blog-slider__text">
+                                    Some kind of e-commerce website, where you register as user, then log, and buy products that goes in your cart. 
+                                    You pay when done with PayPal plugin. It's fully dynamic, with a DB (on MongoDB), and a Node server.
+                                    It also includes an admin section, and a chat.
+                                    <br> 
+                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                </div>
+                                <a href="https://frontend-9qvm.onrender.com/" target="_blank" class="button blog-slider__button button--flex">Demo/Check<i class="uil uil-play button__icon"></i></a>
+                            </div>
+                        </div>
+                        <!-- ITEM 2 -->
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="assets/img/mern2-snipet.png" alt="portfolio item">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code"> 25th April 2023 </span>
+                                <div class="blog-slider__title">MERN Jobify website</div>
+                                <div class="blog-slider__text">
+                                    An app that archives all your job applications and their procedures. Pending, refusals...What company, what city...Full-time or remote... 
+                                    The app is made with fullstack MERN pile. A node server and a MongoDB DB. No need to create an account, you can demo it with a fake "demo" user (read only).
+                                    <br>
+                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                </div>
+                                <a href="https://jobify-prod-lmxq.onrender.com/landing" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                            </div>
+                        </div> 
+                        <!-- ITEM 3 -->
+                        <div class="blog-slider__pagination"></div>                                     
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT  -->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact me</h2>
+                <span class="section__subtitle">Get in touch</span>
+                <div class="row mt-lg-6 justify-content-center contact_mail">
+                    <!-- LEFT PART -->
+                    <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call me</h3>
+                                <span class="contact__subtitle">+33(6)03045977</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email me</h3>
+                                <span class="contact__subtitle">h.videlier@gmail.com</span>
+                            </div>
+                        </div>                        
+                        <div class="contact__information">
+                            <i class="uil uil-location-pin-alt contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Address</h3>
+                                <span class="contact__subtitle">Somewhere in Arnhem</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <!-- right part -->
+                    <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+                        <h2 class="contact__title">Interested to work together? - <span> Let's talk </span> </h2>
+                        <form action="#" method="POST" class="cf">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                                </div> 
+                                <div class="col-12">
+                                    <textarea name="message" cols="30" rows="5" class="form-control form__color mb-30 cf" placeholder="Your Message"></textarea>
+                                </div>    
+                                <div class="col-12">
+                                    <button type="submit" class="button button--flex send-message form_button">
+                                        Send Message
+                                        <i class="uil uil-message button__icon"></i> 
+                                    </button>
+                                </div>                           
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">ADLAX</h1>
+                        <span class="footer__subtitle">Space Cowboy</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="footer__socials">
+                        <a href="" target="_blank" class="footer__social" id="myLinkedIn">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social" id="myInstagram">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social" id="myGithub">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social" id="myFacebook">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social" id="myTwitter">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Adlax. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- SCROLL SYSTEM -->
+        <a href="#home" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!-- SCRIPTS IMPORTS  -->
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="/js/core/popper.min.js"></script>
+        <script src="/js/argon-design-system.js"></script>
+        <script src="/js/script.js"></script>        
+		<script src="/js/core/bootstrap.min.js"></script>
+        <script src="/js/core/jquery.min.js"></script>
+
+    </body>
+
+</html>

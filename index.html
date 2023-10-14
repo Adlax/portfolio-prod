@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,7 +17,7 @@
         />
 
         <title>Hadley</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <!-- Bootstrap CSS -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -33,17 +32,19 @@
             rel="stylesheet"
         />
         <!-- SWIPER CSS  -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
         <!-- My CSS -->
         <link rel="stylesheet" href="/css/style.css" />
     </head>
 
     <body>
-
         <header class="header" id="header">
             <nav class="nav container navbar-expand-lg">
                 <a href="#" class="nav__logo navbar-brand ml-3">
-                    <img src="favicon.ico" alt="">
+                    <img src="favicon.ico" alt="" />
                     Hadley
                 </a>
                 <button
@@ -67,39 +68,43 @@
                         </li>
                         <li class="nav__item">
                             <a class="nav__link" href="#about">
-								<i class="uil uil-user nav__icon"></i>
-								About
-							</a>
+                                <i class="uil uil-user nav__icon"></i>
+                                About
+                            </a>
                         </li>
                         <li class="nav__item">
                             <a class="nav__link" href="#skills">
-								<i class="uil uil-file-info-alt nav__icon"></i>
-								Skills
-							</a>
+                                <i class="uil uil-file-info-alt nav__icon"></i>
+                                Skills
+                            </a>
                         </li>
                         <li class="nav__item">
                             <a class="nav__link" href="#qualifications">
-								<i class="uil uil-diary nav__icon"></i>
-								Qualifications
-							</a>
+                                <i class="uil uil-diary nav__icon"></i>
+                                Qualifications
+                            </a>
                         </li>
                         <li class="nav__item">
                             <a class="nav__link" href="#portfolio">
-								<i class="uil uil-scenery nav__icon"></i>
-								Portfolio
-							</a>
+                                <i class="uil uil-scenery nav__icon"></i>
+                                Portfolio
+                            </a>
                         </li>
                         <li class="nav__item">
                             <a class="nav__link" href="#contact">
-								<i class="uil uil-message nav__icon"></i>
-								Contact
-							</a>
+                                <i class="uil uil-message nav__icon"></i>
+                                Contact
+                            </a>
                         </li>
                     </ul>
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
                 <div class="nav__btns">
-                    <i class="uil uil-moon moon-change-theme" data-mode="dark" id="theme-button"></i>
+                    <i
+                        class="uil uil-moon moon-change-theme"
+                        data-mode="dark"
+                        id="theme-button"
+                    ></i>
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -110,75 +115,97 @@
         <main class="main">
             <!-- HOME  -->
             <section class="home section" id="home">
-				<div class="home__container container grid">
-					<div class="home__content grid">
-						<div class="home__social">
-							<a href="" target="" class="home__social-icon" id="myLinkedIn">
-								<i class="uil uil-linkedin-alt"></i>
-							</a>
-							<a href="" target="" class="home__social-icon" id="myInstagram">
-								<i class="uil uil-instagram"></i>
-							</a>
-							<a href="" target="" class="home__social-icon" id="myGithub">
-								<i class="uil uil-github-alt"></i>
-							</a>
-							<a href="" target="" class="home__social-icon" id="myFacebook">
-								<i class="uil uil-facebook-f"></i>
-							</a>
-							<a href="" target="" class="home__social-icon" id="myTwitter">
-								<i class="uil uil-twitter-alt"></i>
-							</a>
-						</div>
-					</div>
-					<div class="home__data">
-						<small class="home_welcome s-color"> Welcome to my portfolio website </small>
-						<h1 class="home__title"> Hey, I'm </h1>
-						<div id="typewriter"></div>
-						<h3 class="home__subtitle" id="home-bio">
-							An enthusiast engineer and freelancer
-						</h3>							
-						<a href="#contact" class="button button--flex">
-							Contact Me
-							<i class="uil uil-message button__icon"></i>
-						</a>
-					</div>
-				</div>
-				<div class="home__scroll">
-					<a href="#about" class="home__scroll-button button--flex">
-						<i class="uil uil-mouse-alt home__scroll-mouse"></i>
-						<!-- <span class="home__scroll-name"> Scroll Down </span>
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a
+                                href="https://www.linkedin.com/in/hadley-videlier/"
+                                target=""
+                                class="home__social-icon"
+                                id="myLinkedIn"
+                            >
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a
+                                href="https://github.com/Adlax"
+                                target=""
+                                class="home__social-icon"
+                                id="myGithub"
+                            >
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__data">
+                        <small class="home_welcome s-color">
+                            Welcome to my portfolio website
+                        </small>
+                        <h1 class="home__title">Hey, I'm</h1>
+                        <div id="typewriter"></div>
+                        <h3 class="home__subtitle" id="home-bio">
+                            An enthusiast engineer and freelancer
+                        </h3>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <!-- <span class="home__scroll-name"> Scroll Down </span>
 						<i class="uil uil-arrow-down home__scroll-arrow"></i> -->
-					</a>
-				</div>
-			</section>
+                    </a>
+                </div>
+            </section>
             <!-- ABOUT ME -->
             <section class="about section" id="about">
                 <h2 class="section__title">About</h2>
                 <span class="section__subtitle">My Introduction</span>
                 <div class="about__container grid">
-                    <img src="assets/img/meCartoonizedBeFunky3.png" alt="stuff" class="about__img">
+                    <img
+                        src="assets/img/meCartoonizedBeFunky3.png"
+                        alt="stuff"
+                        class="about__img"
+                    />
                     <div class="about__data">
-                        <p class="about__description"id="home-about">
-                            Web developer, with extensive knowledge and years of experience, working with web technologies.
+                        <p class="about__description" id="home-about">
+                            Web developer, with extensive knowledge and years of
+                            experience, working with web technologies.
                             Delivering quality work. Professionally .
                         </p>
                     </div>
                     <div class="about__info">
                         <div>
                             <span class="about__info-title"> 02+ </span>
-                            <span class="about_info-name"> Years <br> Experience </span>
+                            <span class="about_info-name">
+                                Years <br />
+                                Experience
+                            </span>
                         </div>
                         <div>
                             <span class="about__info-title"> 10+ </span>
-                            <span class="about_info-name"> Completed <br> Projects </span>
+                            <span class="about_info-name">
+                                Completed <br />
+                                Projects
+                            </span>
                         </div>
                         <div>
                             <span class="about__info-title"> 02 </span>
-                            <span class="about_info-name"> Companies <br> Worked </span>
+                            <span class="about_info-name">
+                                Companies <br />
+                                Worked
+                            </span>
                         </div>
                     </div>
                     <div class="about__buttons">
-                        <a href="assets/file/CV.pdf" download="my_CV" target="_blank" class="button button--flex">
+                        <a
+                            href="assets/file/CV.pdf"
+                            download="my_CV"
+                            target="_blank"
+                            class="button button--flex"
+                        >
                             Download CV
                             <i class="uil uil-download-alt button__icon"></i>
                         </a>
@@ -194,73 +221,123 @@
                         <!-- SKILL 1 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/html5-without-wordmark-color.svg" alt="html5"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/html5-without-wordmark-color.svg"
+                                        alt="html5"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>HTML</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 2 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/css-3-seeklogo.com.svg" alt="css3"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/css-3-seeklogo.com.svg"
+                                        alt="css3"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>CSS</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 3 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/javascript-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/javascript-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>JS/JSX</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 4 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/angular-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/angular-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>Angular</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 5 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/react-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/react-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>React</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 6 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/redux-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/redux-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>Redux</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 7 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/nodejs-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/nodejs-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>Node</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 8 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/fastapi-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/fastapi-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>FastAPI</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 9 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/postgresql-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/postgresql-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>PostgreSQL</h2></div>
                             </div>
                         </div>
                         <!-- SKILL 10 -->
                         <div class="skills__container-card">
                             <div class="card_skill shadow2">
-                                <div class="imgBx"><img src="assets/img/mongodb-seeklogo.com.svg" alt="js"></div>
+                                <div class="imgBx">
+                                    <img
+                                        src="assets/img/mongodb-seeklogo.com.svg"
+                                        alt="js"
+                                    />
+                                </div>
                                 <div class="contentBx"><h2>MongoDB</h2></div>
                             </div>
-                        </div>                                                                                                                                                                                                                       
+                        </div>
                     </div>
                 </div>
             </section>
@@ -270,217 +347,87 @@
                 <span class="section__subtitle">My personal journey</span>
                 <div class="qualifications__container container">
                     <div class="row mt-lg-0">
-                        <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualifications__content" id="education">
+                        <div
+                            class="col-lg-6 col-sm-10 col-md-10 mt-2 qualifications__content"
+                            id="education"
+                        >
                             <div class="qualifications__button button--flex">
-                                <i class="uil uil-graduation-cap qualifications__icon"></i>Education
+                                <i
+                                    class="uil uil-graduation-cap qualifications__icon"
+                                ></i
+                                >Education
                             </div>
                             <div id="education_timeline">
                                 <div class="container py-2">
                                     <!-- ITEM 1 -->
                                     <div class="row">
                                         <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    <span class="qualifications__line"></span>
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
                                                 </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
+                                                <div class="col">&nbsp;</div>
                                             </div>
 
                                             <h5>
-                                                <span class="badge qualifications__calendar">
-                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
+                                                <span
+                                                    class="badge qualifications__calendar"
+                                                >
+                                                    <i
+                                                        class="uil uil-calendar-alt qualifications__calendar-icon"
+                                                    ></i>
                                                     2010
                                                 </span>
                                             </h5>
 
-                                            <div class="row h-50 qualifications__journey">
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    <span class="qualifications__line"></span>
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
                                                 </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
+                                                <div class="col">&nbsp;</div>
                                             </div>
                                         </div>
                                         <!-- Content -->
                                         <div class="col py-2">
-                                            <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div
+                                                class="card education-card transparent_card mirror-face shadow2"
+                                            >
                                                 <div class="card-body">
                                                     <div class="task">
                                                         <div class="abstract">
-                                                            <h3 class="qualifications__title">Dr of Science / PhD (Physics)</h3>
-                                                            <p class="qualifications__subtitle">Montpellier University / CNRS</p>
+                                                            <h3
+                                                                class="qualifications__title"
+                                                            >
+                                                                Dr of Science /
+                                                                PhD (Physics)
+                                                            </h3>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Montpellier
+                                                                University /
+                                                                CNRS
+                                                            </p>
                                                         </div>
                                                         <div class="details">
-                                                            <p class="qualifications__subtitle ">Terahertz waves emission and detection with transistors</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ITEM 2 -->
-                                    <div class="row">
-                                        <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
-                                                <div class="col">
-                                                    <span class="qualifications__line"></span>
-                                                </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
-                                            </div>
-
-                                            <h5>
-                                                <span class="badge qualifications__calendar">
-                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
-                                                    2007
-                                                </span>
-                                            </h5>
-
-                                            <div class="row h-50 qualifications__journey">
-                                                <div class="col">
-                                                    <span class="qualifications__line"></span>
-                                                </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Content -->
-                                        <div class="col py-2">
-                                            <div class="card education-card transparent_card mirror-face shadow2">
-                                                <div class="card-body">
-                                                    <div class="task">
-                                                        <div class="abstract">
-                                                            <h3 class="qualifications__title">Master (Physics)</h3>
-                                                            <p class="qualifications__subtitle">Lyon University</p>
-                                                        </div>
-                                                        <div class="details">
-                                                            <p class="qualifications__subtitle ">Nanomaterials and Nanothechnologies</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ITEM 3 -->
-                                    <div class="row">
-                                        <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
-                                                <div class="col">
-                                                    <span class="qualifications__line"></span>
-                                                </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
-                                            </div>
-
-                                            <h5>
-                                                <span class="badge qualifications__calendar">
-                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
-                                                    2005
-                                                </span>
-                                            </h5>
-
-                                            <div class="row h-50 qualifications__journey">
-                                                <div class="col">
-                                                    <span class="qualifications__line"></span>
-                                                </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Content -->
-                                        <div class="col py-2">
-                                            <div class="card education-card transparent_card mirror-face shadow2">
-                                                <div class="card-body">
-                                                    <div class="task">
-                                                        <div class="abstract">
-                                                            <h3 class="qualifications__title">Licence (Physics)</h3>
-                                                            <p class="qualifications__subtitle">Lyon University</p>
-                                                        </div>
-                                                        <div class="details">
-                                                            <p class="qualifications__subtitle ">Physics, Mathematics, Software</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ITEM END -->
-                                    <div class="row">
-                                        <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
-                                                <div class="col">
-                                                    <span class="qualifications__start"><i class="uil uil-rocket qualifications__start-icon"></i></span>
-                                                </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Content -->
-                                        <div class="col py-2">
-                                        </div>
-                                    </div>                                                                        
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualifications__content" id="experience">
-                            <div class="qualifications__button button--flex">
-                                <i class="uil uil-briefcase-alt qualifications__icon"></i>Experience
-                            </div>
-                            <div id="experience_timeline">
-                                <div class="container py-2">
-                                    <!-- ITEM 1 -->
-                                    <div class="row">
-                                        <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
-                                                <div class="col">
-                                                    <span class="qualifications__line"></span>
-                                                </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
-                                            </div>
-
-                                            <h5>
-                                                <span class="badge qualifications__calendar">
-                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
-                                                    2017
-                                                </span>
-                                            </h5>
-
-                                            <div class="row h-50 qualifications__journey">
-                                                <div class="col">
-                                                    <span class="qualifications__line"></span>
-                                                </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Content -->
-                                        <div class="col py-2">
-                                            <div class="card education-card transparent_card mirror-face shadow2">
-                                                <div class="card-body">
-                                                    <div class="task">
-                                                        <div class="abstract">
-                                                            <h3 class="qualifications__title">Developer/Software</h3>
-                                                            <p class="qualifications__subtitle">StartUps & Industry</p>
-                                                        </div>
-                                                        <div class="details">
-                                                            <p class="qualifications__subtitle ">
-                                                                Essentially front-end web development with Angular and React.  
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Terahertz waves
+                                                                emission and
+                                                                detection with
+                                                                transistors
                                                             </p>
                                                         </div>
                                                     </div>
@@ -491,43 +438,69 @@
                                     <!-- ITEM 2 -->
                                     <div class="row">
                                         <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    <span class="qualifications__line"></span>
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
                                                 </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
+                                                <div class="col">&nbsp;</div>
                                             </div>
 
                                             <h5>
-                                                <span class="badge qualifications__calendar">
-                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
-                                                    2013
+                                                <span
+                                                    class="badge qualifications__calendar"
+                                                >
+                                                    <i
+                                                        class="uil uil-calendar-alt qualifications__calendar-icon"
+                                                    ></i>
+                                                    2007
                                                 </span>
                                             </h5>
 
-                                            <div class="row h-50 qualifications__journey">
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    <span class="qualifications__line"></span>
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
                                                 </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
+                                                <div class="col">&nbsp;</div>
                                             </div>
                                         </div>
                                         <!-- Content -->
                                         <div class="col py-2">
-                                            <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div
+                                                class="card education-card transparent_card mirror-face shadow2"
+                                            >
                                                 <div class="card-body">
                                                     <div class="task">
                                                         <div class="abstract">
-                                                            <h3 class="qualifications__title">Mechatronics/R&D</h3>
-                                                            <p class="qualifications__subtitle">Industry</p>
+                                                            <h3
+                                                                class="qualifications__title"
+                                                            >
+                                                                Master (Physics)
+                                                            </h3>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Lyon University
+                                                            </p>
                                                         </div>
                                                         <div class="details">
-                                                            <p class="qualifications__subtitle ">Military equipment prototype, telecom RF prototype</p>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Nanomaterials
+                                                                and
+                                                                Nanothechnologies
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -537,66 +510,360 @@
                                     <!-- ITEM 3 -->
                                     <div class="row">
                                         <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    <span class="qualifications__line"></span>
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
                                                 </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
+                                                <div class="col">&nbsp;</div>
                                             </div>
 
                                             <h5>
-                                                <span class="badge qualifications__calendar">
-                                                    <i class="uil uil-calendar-alt qualifications__calendar-icon"></i>
-                                                    2006
+                                                <span
+                                                    class="badge qualifications__calendar"
+                                                >
+                                                    <i
+                                                        class="uil uil-calendar-alt qualifications__calendar-icon"
+                                                    ></i>
+                                                    2005
                                                 </span>
                                             </h5>
 
-                                            <div class="row h-50 qualifications__journey">
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    <span class="qualifications__line"></span>
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
                                                 </div>
-                                                <div class="col">
-                                                    &nbsp;
-                                                </div>
+                                                <div class="col">&nbsp;</div>
                                             </div>
                                         </div>
                                         <!-- Content -->
                                         <div class="col py-2">
-                                            <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div
+                                                class="card education-card transparent_card mirror-face shadow2"
+                                            >
                                                 <div class="card-body">
                                                     <div class="task">
                                                         <div class="abstract">
-                                                            <h3 class="qualifications__title">Fundamental Research</h3>
-                                                            <p class="qualifications__subtitle">University / CNRS / LAAS</p>
+                                                            <h3
+                                                                class="qualifications__title"
+                                                            >
+                                                                Licence
+                                                                (Physics)
+                                                            </h3>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Lyon University
+                                                            </p>
                                                         </div>
                                                         <div class="details">
-                                                            <p class="qualifications__subtitle ">Semiconductors, nanotechnologies, graphene</p>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Physics,
+                                                                Mathematics,
+                                                                Software
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                     <!-- ITEM END -->
+                                    <!-- ITEM END -->
                                     <div class="row">
                                         <!-- Design -->
-                                        <div class="col-auto text-center flex-column d-sm-flex">
-                                            <div class="row h-50 qualifications__journey">
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    <span class="qualifications__start"><i class="uil uil-rocket qualifications__start-icon"></i></span>
+                                                    <span
+                                                        class="qualifications__start"
+                                                        ><i
+                                                            class="uil uil-rocket qualifications__start-icon"
+                                                        ></i
+                                                    ></span>
                                                 </div>
+                                                <div class="col">&nbsp;</div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-10 col-md-10 mt-2 qualifications__content"
+                            id="experience"
+                        >
+                            <div class="qualifications__button button--flex">
+                                <i
+                                    class="uil uil-briefcase-alt qualifications__icon"
+                                ></i
+                                >Experience
+                            </div>
+                            <div id="experience_timeline">
+                                <div class="container py-2">
+                                    <!-- ITEM 1 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
                                                 <div class="col">
-                                                    &nbsp;
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
                                                 </div>
+                                                <div class="col">&nbsp;</div>
+                                            </div>
+
+                                            <h5>
+                                                <span
+                                                    class="badge qualifications__calendar"
+                                                >
+                                                    <i
+                                                        class="uil uil-calendar-alt qualifications__calendar-icon"
+                                                    ></i>
+                                                    2017
+                                                </span>
+                                            </h5>
+
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
+                                                <div class="col">
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
+                                                </div>
+                                                <div class="col">&nbsp;</div>
                                             </div>
                                         </div>
                                         <!-- Content -->
                                         <div class="col py-2">
+                                            <div
+                                                class="card education-card transparent_card mirror-face shadow2"
+                                            >
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3
+                                                                class="qualifications__title"
+                                                            >
+                                                                Developer/Software
+                                                            </h3>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                StartUps &
+                                                                Industry
+                                                            </p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Essentially
+                                                                front-end web
+                                                                development with
+                                                                Angular and
+                                                                React.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>                                                                        
+                                    </div>
+                                    <!-- ITEM 2 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
+                                                <div class="col">
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
+                                                </div>
+                                                <div class="col">&nbsp;</div>
+                                            </div>
+
+                                            <h5>
+                                                <span
+                                                    class="badge qualifications__calendar"
+                                                >
+                                                    <i
+                                                        class="uil uil-calendar-alt qualifications__calendar-icon"
+                                                    ></i>
+                                                    2013
+                                                </span>
+                                            </h5>
+
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
+                                                <div class="col">
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
+                                                </div>
+                                                <div class="col">&nbsp;</div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div
+                                                class="card education-card transparent_card mirror-face shadow2"
+                                            >
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3
+                                                                class="qualifications__title"
+                                                            >
+                                                                Mechatronics/R&D
+                                                            </h3>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Industry
+                                                            </p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Military
+                                                                equipment
+                                                                prototype,
+                                                                telecom RF
+                                                                prototype
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM 3 -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
+                                                <div class="col">
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
+                                                </div>
+                                                <div class="col">&nbsp;</div>
+                                            </div>
+
+                                            <h5>
+                                                <span
+                                                    class="badge qualifications__calendar"
+                                                >
+                                                    <i
+                                                        class="uil uil-calendar-alt qualifications__calendar-icon"
+                                                    ></i>
+                                                    2006
+                                                </span>
+                                            </h5>
+
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
+                                                <div class="col">
+                                                    <span
+                                                        class="qualifications__line"
+                                                    ></span>
+                                                </div>
+                                                <div class="col">&nbsp;</div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2">
+                                            <div
+                                                class="card education-card transparent_card mirror-face shadow2"
+                                            >
+                                                <div class="card-body">
+                                                    <div class="task">
+                                                        <div class="abstract">
+                                                            <h3
+                                                                class="qualifications__title"
+                                                            >
+                                                                Fundamental
+                                                                Research
+                                                            </h3>
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                University /
+                                                                CNRS / LAAS
+                                                            </p>
+                                                        </div>
+                                                        <div class="details">
+                                                            <p
+                                                                class="qualifications__subtitle"
+                                                            >
+                                                                Semiconductors,
+                                                                nanotechnologies,
+                                                                graphene
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ITEM END -->
+                                    <div class="row">
+                                        <!-- Design -->
+                                        <div
+                                            class="col-auto text-center flex-column d-sm-flex"
+                                        >
+                                            <div
+                                                class="row h-50 qualifications__journey"
+                                            >
+                                                <div class="col">
+                                                    <span
+                                                        class="qualifications__start"
+                                                        ><i
+                                                            class="uil uil-rocket qualifications__start-icon"
+                                                        ></i
+                                                    ></span>
+                                                </div>
+                                                <div class="col">&nbsp;</div>
+                                            </div>
+                                        </div>
+                                        <!-- Content -->
+                                        <div class="col py-2"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -607,187 +874,465 @@
             <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent works</span>
-                <span class="section__subtitle">(place the cursor on the below section and scroll mouse wheel)</span>
+                <span class="section__subtitle"
+                    >(place the cursor on the below section and scroll mouse
+                    wheel)</span
+                >
                 <div class="blog-slider">
                     <div class="blog-slider__wrp swiper-wrapper">
+                        <!-- ITEM 12 -->
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img
+                                    src="assets/img/comfy.png"
+                                    alt="portfolio item"
+                                />
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">
+                                    14th Oct 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    furniture store / eCommerce
+                                </div>
+                                <div class="blog-slider__text">
+                                    A furniture eCommerce web store. Only with
+                                    VanillaJS
+                                    <br />
+                                </div>
+                                <a
+                                    href="https://ecommerce-comfy-vanillajs.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
+                            </div>
+                        </div>
+                        <!-- ITEM 13 -->
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img
+                                    src="assets/img/cocktails.png"
+                                    alt="portfolio item"
+                                />
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">
+                                    14th Oct 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    cocktails API
+                                </div>
+                                <div class="blog-slider__text">
+                                    A cocktails dedicated recipes site. Only
+                                    with VanillaJS
+                                    <br />
+                                </div>
+                                <a
+                                    href="https://cocktails-vanillajs.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
+                            </div>
+                        </div>
+                        <!-- ITEM 14 -->
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img
+                                    src="assets/img/grocery.png"
+                                    alt="portfolio item"
+                                />
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">
+                                    14th Oct 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    grocery toBuy / todo list
+                                </div>
+                                <div class="blog-slider__text">
+                                    A kind of todo list. Only with VanillaJS
+                                    <br />
+                                </div>
+                                <a
+                                    href="https://grocery-vanillajs.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
+                            </div>
+                        </div>
                         <!-- ITEM 1 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/mern1-snipet.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/mern1-snipet.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 8th April 2023 </span>
-                                <div class="blog-slider__title">e-commerce website</div>
-                                <div class="blog-slider__text">
-                                    Some kind of e-commerce website, where you register as user, then log, and buy products that goes in your cart. 
-                                    You pay when done with PayPal plugin. It's fully dynamic, with a DB (on MongoDB), and a Node server.
-                                    It also includes an admin section, and a chat.
-                                    <br> 
-                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                <span class="blog-slider__code">
+                                    8th April 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    e-commerce website
                                 </div>
-                                <a href="https://frontend-9qvm.onrender.com/" target="_blank" class="button blog-slider__button button--flex">Demo/Check<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    Some kind of e-commerce website, where you
+                                    register as user, then log, and buy products
+                                    that goes in your cart. You pay when done
+                                    with PayPal plugin. It's fully dynamic, with
+                                    a DB (on MongoDB), and a Node server. It
+                                    also includes an admin section, and a chat.
+                                    <br />
+                                    (If you demo it, please be patient for the
+                                    loading ; it is rendered with free-tier
+                                    render.com)
+                                </div>
+                                <a
+                                    href="https://frontend-9qvm.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Demo/Check<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
                         </div>
                         <!-- ITEM 2 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/mern2-snipet.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/mern2-snipet.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 25th April 2023 </span>
-                                <div class="blog-slider__title">Jobify website</div>
-                                <div class="blog-slider__text">
-                                    An app that archives all your job applications and their procedures. Pending, refusals...What company, what city...Full-time or remote... 
-                                    The app is made with fullstack MERN pile. A node server and a MongoDB DB. No need to create an account, you can demo it with a fake "demo" user (read only).
-                                    <br>
-                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                <span class="blog-slider__code">
+                                    25th April 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Jobify website
                                 </div>
-                                <a href="https://jobify-prod-lmxq.onrender.com/landing" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    An app that archives all your job
+                                    applications and their procedures. Pending,
+                                    refusals...What company, what
+                                    city...Full-time or remote... The app is
+                                    made with fullstack MERN pile. A node server
+                                    and a MongoDB DB. No need to create an
+                                    account, you can demo it with a fake "demo"
+                                    user (read only).
+                                    <br />
+                                    (If you demo it, please be patient for the
+                                    loading ; it is rendered with free-tier
+                                    render.com)
+                                </div>
+                                <a
+                                    href="https://jobify-prod-lmxq.onrender.com/landing"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
-                        </div> 
+                        </div>
                         <!-- ITEM 3 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/mern3-snipet.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/mern3-snipet.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 26th May 2023 </span>
-                                <div class="blog-slider__title">Developers Social Network website</div>
-                                <div class="blog-slider__text">
-                                    An sicial network for developers. Register/login, edit your profile with your software skillset, create some posts, comment and like...
-                                    The app is made with fullstack MERN pile. A node server and a MongoDB DB.
-                                    <br>
-                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                <span class="blog-slider__code">
+                                    26th May 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Developers Social Network website
                                 </div>
-                                <a href="https://devconnector-prod.onrender.com" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    An sicial network for developers.
+                                    Register/login, edit your profile with your
+                                    software skillset, create some posts,
+                                    comment and like... The app is made with
+                                    fullstack MERN pile. A node server and a
+                                    MongoDB DB.
+                                    <br />
+                                    (If you demo it, please be patient for the
+                                    loading ; it is rendered with free-tier
+                                    render.com)
+                                </div>
+                                <a
+                                    href="https://devconnector-prod.onrender.com"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
-                        </div> 
+                        </div>
                         <!-- ITEM 4 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/OuiTube.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/OuiTube.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 24th July 2023 </span>
-                                <div class="blog-slider__title">YouTube Like</div>
-                                <div class="blog-slider__text">
-                                    A mockup of YouTube landing page to work on CSS and grid/flex system. 
-                                    <br>
-                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                <span class="blog-slider__code">
+                                    24th July 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    YouTube Like
                                 </div>
-                                <a href="https://youtube-clone-dbry.onrender.com" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    A mockup of YouTube landing page to work on
+                                    CSS and grid/flex system.
+                                    <br />
+                                    (If you demo it, please be patient for the
+                                    loading ; it is rendered with free-tier
+                                    render.com)
+                                </div>
+                                <a
+                                    href="https://youtube-clone-dbry.onrender.com"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
-                        </div> 
+                        </div>
                         <!-- ITEM 5 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/tinder.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/tinder.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 24th July 2023 </span>
-                                <div class="blog-slider__title">Tinder Like</div>
-                                <div class="blog-slider__text">
-                                    A mockup of TINDER landing page to work on CSS and grid/flex system. 
-                                    <br>
-                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                <span class="blog-slider__code">
+                                    24th July 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Tinder Like
                                 </div>
-                                <a href="https://tinder-like.onrender.com" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    A mockup of TINDER landing page to work on
+                                    CSS and grid/flex system.
+                                    <br />
+                                    (If you demo it, please be patient for the
+                                    loading ; it is rendered with free-tier
+                                    render.com)
+                                </div>
+                                <a
+                                    href="https://tinder-like.onrender.com"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
                         </div>
                         <!-- ITEM 6 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/tesla.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/tesla.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 24th July 2023 </span>
+                                <span class="blog-slider__code">
+                                    24th July 2023
+                                </span>
                                 <div class="blog-slider__title">Tesla Like</div>
                                 <div class="blog-slider__text">
-                                    A mockup of TESLA landing page to work on CSS and grid/flex system. 
-                                    <br>
-                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                    A mockup of TESLA landing page to work on
+                                    CSS and grid/flex system.
+                                    <br />
+                                    (If you demo it, please be patient for the
+                                    loading ; it is rendered with free-tier
+                                    render.com)
                                 </div>
-                                <a href="https://tesla-like.onrender.com" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <a
+                                    href="https://tesla-like.onrender.com"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
-                        </div> 
+                        </div>
                         <!-- ITEM 7 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/potter.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/potter.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 24th July 2023 </span>
-                                <div class="blog-slider__title">Hary Potter Like</div>
-                                <div class="blog-slider__text">
-                                    A mockup of Harry Potter landing page to work on CSS and grid/flex system. 
-                                    <br>
-                                    (If you demo it, please be patient for the loading ; it is rendered with free-tier render.com)
+                                <span class="blog-slider__code">
+                                    24th July 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Hary Potter Like
                                 </div>
-                                <a href="https://harry-potter-like.onrender.com" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    A mockup of Harry Potter landing page to
+                                    work on CSS and grid/flex system.
+                                    <br />
+                                    (If you demo it, please be patient for the
+                                    loading ; it is rendered with free-tier
+                                    render.com)
+                                </div>
+                                <a
+                                    href="https://harry-potter-like.onrender.com"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
                         </div>
                         <!-- ITEM 8 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/grand-hotel.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/grand-hotel.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 17th Aug 2023 </span>
-                                <div class="blog-slider__title">Grand Hotel</div>
-                                <div class="blog-slider__text">
-                                    A hotel booking landpage made with only HTML and CSS3 and grid/flex system. 
-                                    <br>
+                                <span class="blog-slider__code">
+                                    17th Aug 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Grand Hotel
                                 </div>
-                                <a href="https://grand-hotel.onrender.com/" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    A hotel booking landpage made with only HTML
+                                    and CSS3 and grid/flex system.
+                                    <br />
+                                </div>
+                                <a
+                                    href="https://grand-hotel.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
                         </div>
                         <!-- ITEM 9 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/furniture-store.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/furniture-store.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 17th Aug 2023 </span>
-                                <div class="blog-slider__title">Furniture Store</div>
-                                <div class="blog-slider__text">
-                                    A furniture store landpage made with only HTML and CSS3 and grid/flex system. 
-                                    <br>
+                                <span class="blog-slider__code">
+                                    17th Aug 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Furniture Store
                                 </div>
-                                <a href="https://furniture-store-hvf3.onrender.com/" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    A furniture store landpage made with only
+                                    HTML and CSS3 and grid/flex system.
+                                    <br />
+                                </div>
+                                <a
+                                    href="https://furniture-store-hvf3.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
                         </div>
                         <!-- ITEM 10 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/tea-station-project.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/tea-station-project.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 4th Sept 2023 </span>
-                                <div class="blog-slider__title">Tea Station</div>
-                                <div class="blog-slider__text">
-                                    A Tea Story. Made with only HTML and CSS3. 
-                                    <br>
+                                <span class="blog-slider__code">
+                                    4th Sept 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Tea Station
                                 </div>
-                                <a href="https://tea-station-project.onrender.com/" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    A Tea Story. Made with only HTML and CSS3.
+                                    <br />
+                                </div>
+                                <a
+                                    href="https://tea-station-project.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
                         </div>
                         <!-- ITEM 11 -->
                         <div class="blog-slider__item swiper-slide">
                             <div class="blog-slider__img">
-                                <img src="assets/img/serial-tripper.png" alt="portfolio item">
+                                <img
+                                    src="assets/img/serial-tripper.png"
+                                    alt="portfolio item"
+                                />
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code"> 12th Sept 2023 </span>
-                                <div class="blog-slider__title">Serial Tripper</div>
-                                <div class="blog-slider__text">
-                                    A touring company. Made with only HTML and CSS3. 
-                                    <br>
+                                <span class="blog-slider__code">
+                                    12th Sept 2023
+                                </span>
+                                <div class="blog-slider__title">
+                                    Serial Tripper
                                 </div>
-                                <a href="https://serial-triper.onrender.com/" target="_blank" class="button blog-slider__button button--flex">Read more<i class="uil uil-play button__icon"></i></a>
+                                <div class="blog-slider__text">
+                                    A touring company. Made with only HTML and
+                                    CSS3.
+                                    <br />
+                                </div>
+                                <a
+                                    href="https://serial-triper.onrender.com/"
+                                    target="_blank"
+                                    class="button blog-slider__button button--flex"
+                                    >Read more<i
+                                        class="uil uil-play button__icon"
+                                    ></i
+                                ></a>
                             </div>
                         </div>
                         <!-- Pagination -->
-                        <div class="blog-slider__pagination"></div>                                     
+                        <div class="blog-slider__pagination"></div>
                     </div>
                 </div>
             </section>
@@ -797,52 +1342,98 @@
                 <span class="section__subtitle">Get in touch</span>
                 <div class="row mt-lg-6 justify-content-center contact_mail">
                     <!-- LEFT PART -->
-                    <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+                    <div
+                        class="col-lg-6 mx-lg-0 mx-2 contact__container container"
+                    >
                         <div class="contact__information">
                             <i class="uil uil-phone contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Call me</h3>
-                                <span class="contact__subtitle">+33(6)03045977</span>
+                                <span class="contact__subtitle"
+                                    >+33(6)03045977</span
+                                >
                             </div>
                         </div>
                         <div class="contact__information">
                             <i class="uil uil-envelope contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Email me</h3>
-                                <span class="contact__subtitle">h.videlier@gmail.com</span>
+                                <span class="contact__subtitle"
+                                    >h.videlier@gmail.com</span
+                                >
                             </div>
-                        </div>                        
+                        </div>
                         <div class="contact__information">
-                            <i class="uil uil-location-pin-alt contact__icon"></i>
+                            <i
+                                class="uil uil-location-pin-alt contact__icon"
+                            ></i>
                             <div>
                                 <h3 class="contact__title">Address</h3>
-                                <span class="contact__subtitle">Arnhem - Netherlands</span>
+                                <span class="contact__subtitle"
+                                    >Arnhem - Netherlands</span
+                                >
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                     <!-- right part -->
-                    <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
-                        <h2 class="contact__title">Interested to work together? - <span> Let's talk </span> </h2>
-                        <form action="https://formspree.io/f/mvojqonv" method="POST" class="cf">
+                    <div
+                        class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form"
+                        id="message-me"
+                    >
+                        <h2 class="contact__title">
+                            Interested to work together? -
+                            <span> Let's talk </span>
+                        </h2>
+                        <form
+                            action="https://formspree.io/f/mvojqonv"
+                            method="POST"
+                            class="cf"
+                        >
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                                    <input
+                                        type="text"
+                                        name="message-name"
+                                        class="form-control form__color mb-30 cf"
+                                        placeholder="Your Name"
+                                    />
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                                    <input
+                                        type="email"
+                                        name="message-email"
+                                        class="form-control form__color mb-30 cf"
+                                        placeholder="Your Email"
+                                    />
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
-                                </div> 
+                                    <input
+                                        type="text"
+                                        name="message-subject"
+                                        class="form-control form__color mb-30 cf"
+                                        placeholder="Subject"
+                                    />
+                                </div>
                                 <div class="col-12">
-                                    <textarea name="message" cols="30" rows="5" class="form-control form__color mb-30 cf" placeholder="Your Message"></textarea>
-                                </div>    
+                                    <textarea
+                                        name="message"
+                                        cols="30"
+                                        rows="5"
+                                        class="form-control form__color mb-30 cf"
+                                        placeholder="Your Message"
+                                    ></textarea>
+                                </div>
                                 <div class="col-12">
-                                    <button type="submit" class="button button--flex send-message form_button">
+                                    <button
+                                        type="submit"
+                                        class="button button--flex send-message form_button"
+                                    >
                                         Send Message
-                                        <i class="uil uil-message button__icon"></i> 
+                                        <i
+                                            class="uil uil-message button__icon"
+                                        ></i>
                                     </button>
-                                </div>                           
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -862,27 +1453,30 @@
                             <a href="#about" class="footer__link">About Me</a>
                         </li>
                         <li>
-                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                            <a href="#portfolio" class="footer__link"
+                                >Portfolio</a
+                            >
                         </li>
                         <li>
                             <a href="#contact" class="footer__link">Contact</a>
                         </li>
                     </ul>
                     <div class="footer__socials">
-                        <a href="" target="" class="footer__social" id="myLinkedIn">
+                        <a
+                            href="https://www.linkedin.com/in/hadley-videlier/"
+                            target=""
+                            class="footer__social"
+                            id="myLinkedIn"
+                        >
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="" target="" class="footer__social" id="myInstagram">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="" target="" class="footer__social" id="myGithub">
+                        <a
+                            href="https://github.com/Adlax"
+                            target=""
+                            class="footer__social"
+                            id="myGithub"
+                        >
                             <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a href="" target="" class="footer__social" id="myFacebook">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-                        <a href="" target="" class="footer__social" id="myTwitter">
-                            <i class="uil uil-twitter-alt"></i>
                         </a>
                     </div>
                 </div>
@@ -896,14 +1490,12 @@
         </a>
 
         <!-- SCRIPTS IMPORTS  -->
-		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="/js/core/popper.min.js"></script>
         <script src="/js/argon-design-system.js"></script>
-        <script src="/js/script.js"></script>        
-		<script src="/js/core/bootstrap.min.js"></script>
+        <script src="/js/script.js"></script>
+        <script src="/js/core/bootstrap.min.js"></script>
         <script src="/js/core/jquery.min.js"></script>
-
     </body>
-
 </html>
